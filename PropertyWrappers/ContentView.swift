@@ -10,7 +10,7 @@ import SwiftUI
 import Foundation
 
 struct CachedUser {
-    @Cache(seconds: 10)
+    @Cache(seconds: 2)
     var name: String
     
     init(name: String) {
