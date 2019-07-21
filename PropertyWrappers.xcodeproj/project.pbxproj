@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D382334622E4F3D1002D13F1 /* CachedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382334522E4F3D1002D13F1 /* CachedUser.swift */; };
+		D382334822E4F3E6002D13F1 /* UserForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382334722E4F3E6002D13F1 /* UserForm.swift */; };
 		D3D94B7C22E0D45E00BED901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D94B7B22E0D45E00BED901 /* AppDelegate.swift */; };
 		D3D94B7E22E0D45E00BED901 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D94B7D22E0D45E00BED901 /* SceneDelegate.swift */; };
 		D3D94B8022E0D45E00BED901 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D94B7F22E0D45E00BED901 /* ContentView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D382334522E4F3D1002D13F1 /* CachedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CachedUser.swift; path = ../../../../../System/Volumes/Data/Users/alberto/Downloads/PropertyWrappers/PropertyWrappers/CachedUser.swift; sourceTree = "<group>"; };
+		D382334722E4F3E6002D13F1 /* UserForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserForm.swift; path = ../../../../../System/Volumes/Data/Users/alberto/Downloads/PropertyWrappers/PropertyWrappers/UserForm.swift; sourceTree = "<group>"; };
 		D3D94B7822E0D45E00BED901 /* PropertyWrappers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyWrappers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D94B7B22E0D45E00BED901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3D94B7D22E0D45E00BED901 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				D3D94B7B22E0D45E00BED901 /* AppDelegate.swift */,
 				D3D94B7D22E0D45E00BED901 /* SceneDelegate.swift */,
 				D3D94B7F22E0D45E00BED901 /* ContentView.swift */,
+				D382334522E4F3D1002D13F1 /* CachedUser.swift */,
+				D382334722E4F3E6002D13F1 /* UserForm.swift */,
 				D3D94B9422E0E71600BED901 /* PropertyWrappers */,
 				D3D94B8122E0D46000BED901 /* Assets.xcassets */,
 				D3D94B8622E0D46000BED901 /* LaunchScreen.storyboard */,
@@ -179,11 +185,13 @@
 			files = (
 				D3D94B9722E0E74000BED901 /* UserNameIsAllowedValidator.swift in Sources */,
 				D3D94B9922E0E75800BED901 /* UserNameLenghtValidator.swift in Sources */,
+				D382334622E4F3D1002D13F1 /* CachedUser.swift in Sources */,
 				D3D94B7C22E0D45E00BED901 /* AppDelegate.swift in Sources */,
 				D3D94B7E22E0D45E00BED901 /* SceneDelegate.swift in Sources */,
 				D3D94B9022E0D47A00BED901 /* Cache.swift in Sources */,
 				D3D94B9222E0DF7B00BED901 /* Validate.swift in Sources */,
 				D3D94B9B22E0E7AD00BED901 /* ZipLenghtValidator.swift in Sources */,
+				D382334822E4F3E6002D13F1 /* UserForm.swift in Sources */,
 				D3D94B8022E0D45E00BED901 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

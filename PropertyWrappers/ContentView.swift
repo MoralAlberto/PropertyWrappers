@@ -9,47 +9,13 @@
 import SwiftUI
 import Foundation
 
-struct CachedUser {
-    @Cache(seconds: 2)
-    var name: String
-    
-    init(name: String) {
-        self.name = name
-    }
-}
-
-struct User {
-    let name: String
-}
-
-struct UserForm {
-    enum UserError: Error, Equatable {
-        case noValidUser
-    }
-    
-    @Validate(initialValue: nil, validations: [UserNameLenghtValidator().execute,
-                                               UserNameIsAllowedValidator().execute])
-    private var nameField: String?
-    
-    var validate: Result<User, UserError> {
-        guard let name = nameField else {
-            return .failure(.noValidUser)
-        }
-        return .success(.init(name: name))
-    }
-    
-    init(name: String) {
-        self.nameField = name
-    }
-}
-
 struct ContentView : View {
     var cachedUser = CachedUser(name: "Alberto")
     var userForm = UserForm(name: "Alberto")
     
     var body: some View {
         VStack {
-            Text("Hello World")
+            Text("Property Wrapper Example")
             Button(action: {
                 self.printCachedValue()
                 self.printCachedValueAfter3Seconds()
